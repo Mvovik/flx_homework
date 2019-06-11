@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+  background: #ffffff; }
+
+header {
+  background: url(../img/header_background_v1.jpg) no-repeat center;
+  background-size: cover;
+  height: 120vh;
+  width: 100vw; }
+  header img {
+    height: 145px; }
+  header nav {
+    position: absolute;
+    top: 0px;
+    right: 0px; }
+    header nav a {
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ececec;
+      font: bold 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+      padding: 15px 100px;
+      border-right: 2px solid #607d8b; }
+      header nav a:last-child {
+        border-right: none; }
+  header section {
+    text-align: center;
+    position: relative;
+    top: 230px;
+    margin: auto;
+    padding-left: 10px; }
+    header section h1 {
+      text-transform: uppercase;
+      color: #ececec; }
+    header section a {
+      display: inline-block;
+      text-transform: uppercase;
+      text-decoration: none;
+      font: 15px/24px Roboto, Ubuntu, Cantarell, Helvetica, sans-serif;
+      color: #ececec;
+      padding: 10px 60px;
+      background-color: #01acac; }
+
+main {
+  margin: 10px auto;
+  max-width: 990px; }
+  main .toolbar input {
+    float: right;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: 34px;
+    padding-left: 20px;
+    border: 1px solid #607d8b;
+    background-color: #ffffff; }
+    main .toolbar input::placeholder {
+      color: #010f16; }
+  main #list h1 {
+    clear: right;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 0px;
+    color: #010f16; }
+  main #list article {
+    display: flex;
+    background: #efefef;
+    margin: 0px 0px 20px 30px; }
+    main #list article img {
+      width: 282px;
+      height: 282px;
+      margin: 10px; }
+    main #list article .post-description {
+      font-size: 0.8em;
+      margin: 15px 0px 5px 5px;
+      color: #e90303; }
+    main #list article h3 {
+      text-transform: uppercase;
+      margin: 0px 20px 0px 0px;
+      padding: 5px 0px 0px 0px;
+      border-top: 1px solid #607d8b;
+      color: #0097a7; }
+    main #list article p {
+      margin-top: 0px;
+      color: #010f16; }
+    main #list article button {
+      margin: 5px 20px 0px 0px;
+      padding: 11px 74px;
+      border: none;
+      text-transform: uppercase;
+      color: #ececec;
+      background-color: #01acac;
+      float: right; }
+  main #about h1 {
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 0px;
+    color: #010f16;
+    margin: 65px 15px 0px 0px; }
+  main #about p {
+    margin: 0px 0px 20px 45px; }
+  main #about img {
+    box-sizing: border-box;
+    padding: 0px 15px 0px 45px;
+    max-width: 100%;
+    height: auto; }
+  main #contact h1 {
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 0px;
+    color: #010f16;
+    margin-top: 58px; }
+  main #contact h4 {
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 0px;
+    color: #010f16;
+    margin-top: 0px; }
+  main #contact form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 30px; }
+    main #contact form .contact-data {
+      margin-top: 20px; }
+      main #contact form .contact-data label {
+        color: #0097a7;
+        float: right; }
+      main #contact form .contact-data input {
+        width: 467px;
+        height: 42px;
+        border: 1px solid #607d8b;
+        background-color: #ffffff; }
+      main #contact form .contact-data:nth-child(3) {
+        width: 960px; }
+      main #contact form .contact-data textarea {
+        height: 113px;
+        width: 100%;
+        padding: 0;
+        border: 1px solid #607d8b;
+        background-color: #ffffff; }
+    main #contact form .btn {
+      margin: 5px 20px 0px 0px;
+      padding: 11px 74px;
+      border: none;
+      text-transform: uppercase;
+      color: #ececec;
+      background-color: #01acac;
+      position: relative;
+      top: 10px;
+      left: 780px; }
+
+footer {
+  position: relative;
+  left: 16px;
+  top: 7px; }
+  footer span {
+    font-size: 0.8em;
+    color: #010f16; }
+
+/*# sourceMappingURL=style1.css.map */
